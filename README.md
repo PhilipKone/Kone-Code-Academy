@@ -34,45 +34,32 @@ Kone Lab is where ideas turn into reality. This division focuses on practical en
 
 ## ✨ Services We Offer
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; margin: 30px 0;">
-
-<div style="flex: 1 1 280px; max-width: 320px; padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%); border: 2px solid #667eea; box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);">
-
-<h3 style="color: #667eea; margin-top: 0; font-size: 1.3em;">🔬 Research (Kone Consult)</h3>
-
-<div style="line-height: 1.8; color: #4a5568;">
-<div>✓ Research Topic Selection</div>
-<div>✓ Data Analysis</div>
-<div>✓ Report/Thesis Writing</div>
-<div>✓ Mentorship</div>
-</div>
-
-</div>
-
-<div style="flex: 1 1 280px; max-width: 320px; padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #fef8ff 0%, #ffffff 100%); border: 2px solid #f093fb; box-shadow: 0 4px 12px rgba(240, 147, 251, 0.15);">
-
-<h3 style="color: #f093fb; margin-top: 0; font-size: 1.3em;">💻 Coding (Kone Code)</h3>
-
-<div style="line-height: 1.8; color: #4a5568;">
-<div>✓ Python Masterclass</div>
-<div>✓ C/C++ School</div>
-<div>✓ R & MATLAB School</div>
-<div>✓ Face-to-Face & Online Tuition</div>
-</div>
-
-</div>
-
-<div style="flex: 1 1 280px; max-width: 320px; padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #f0f9ff 0%, #ffffff 100%); border: 2px solid #4facfe; box-shadow: 0 4px 12px rgba(79, 172, 254, 0.15);">
-
-<h3 style="color: #4facfe; margin-top: 0; font-size: 1.3em;">🛠️ Engineering (Kone Lab)</h3>
-
-<div style="line-height: 1.8; color: #4a5568;">
-<div>✓ 3D Modelling, Design, & Simulation</div>
-<div>✓ Arduino Programming</div>
-</div>
-
-</div>
-
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; margin: 10px; flex: 1; min-width: 250px;">
+    <h3>🔬 Research (Kone Consult)</h3>
+    <ul>
+      <li>Research Topic Selection</li>
+      <li>Data Analysis</li>
+      <li>Report/Thesis Writing</li>
+      <li>Mentorship</li>
+    </ul>
+  </div>
+  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; margin: 10px; flex: 1; min-width: 250px;">
+    <h3>💻 Coding (Kone Code)</h3>
+    <ul>
+      <li>Python Masterclass</li>
+      <li>C/C++ School</li>
+      <li>R & MATLAB School</li>
+      <li>Face-to-Face & Online Tuition</li>
+    </ul>
+  </div>
+  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; margin: 10px; flex: 1; min-width: 250px;">
+    <h3>🛠️ Engineering (Kone Lab)</h3>
+    <ul>
+      <li>3D Modelling, Design, & Simulation</li>
+      <li>Arduino Programming</li>
+    </ul>
+  </div>
 </div>
 
 ---
