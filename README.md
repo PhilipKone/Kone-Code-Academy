@@ -34,38 +34,46 @@ Kone Lab is where ideas turn into reality. This division focuses on practical en
 
 ## ✨ Services We Offer
 
-<table>
-<tr>
-<td width="33%" valign="top">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; margin: 30px 0;">
 
-### 🔬 Research (Kone Consult)
+<div style="flex: 1 1 280px; max-width: 320px; padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%); border: 2px solid #667eea; box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);">
 
-✓ Research Topic Selection  
-✓ Data Analysis  
-✓ Report/Thesis Writing  
-✓ Mentorship
+<h3 style="color: #667eea; margin-top: 0; font-size: 1.3em;">🔬 Research (Kone Consult)</h3>
 
-</td>
-<td width="33%" valign="top">
+<div style="line-height: 1.8; color: #4a5568;">
+<div>✓ Research Topic Selection</div>
+<div>✓ Data Analysis</div>
+<div>✓ Report/Thesis Writing</div>
+<div>✓ Mentorship</div>
+</div>
 
-### 💻 Coding (Kone Code)
+</div>
 
-✓ Python Masterclass  
-✓ C/C++ School  
-✓ R & MATLAB School  
-✓ Face-to-Face & Online Tuition
+<div style="flex: 1 1 280px; max-width: 320px; padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #fef8ff 0%, #ffffff 100%); border: 2px solid #f093fb; box-shadow: 0 4px 12px rgba(240, 147, 251, 0.15);">
 
-</td>
-<td width="33%" valign="top">
+<h3 style="color: #f093fb; margin-top: 0; font-size: 1.3em;">💻 Coding (Kone Code)</h3>
 
-### 🛠️ Engineering (Kone Lab)
+<div style="line-height: 1.8; color: #4a5568;">
+<div>✓ Python Masterclass</div>
+<div>✓ C/C++ School</div>
+<div>✓ R & MATLAB School</div>
+<div>✓ Face-to-Face & Online Tuition</div>
+</div>
 
-✓ 3D Modelling, Design, & Simulation  
-✓ Arduino Programming
+</div>
 
-</td>
-</tr>
-</table>
+<div style="flex: 1 1 280px; max-width: 320px; padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #f0f9ff 0%, #ffffff 100%); border: 2px solid #4facfe; box-shadow: 0 4px 12px rgba(79, 172, 254, 0.15);">
+
+<h3 style="color: #4facfe; margin-top: 0; font-size: 1.3em;">🛠️ Engineering (Kone Lab)</h3>
+
+<div style="line-height: 1.8; color: #4a5568;">
+<div>✓ 3D Modelling, Design, & Simulation</div>
+<div>✓ Arduino Programming</div>
+</div>
+
+</div>
+
+</div>
 
 ---
 
