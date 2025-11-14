@@ -34,26 +34,33 @@ Kone Lab is where ideas turn into reality. This division focuses on practical en
 
 ## ✨ Services We Offer
 
-We provide a variety of services across our three divisions.
-
-### Research (Kone Consult)
-
-- Research Topic Selection
-- Data Analysis
-- Report/Thesis Writing
-- Mentorship
-
-### Coding (Kone Code)
-
-- Python Masterclass
-- C/C++ School
-- R & MATLAB School
-- Face-to-Face & Online Tuition
-
-### Engineering (Kone Lab)
-
-- 3D Modelling, Design, & Simulation
-- Arduino Programming
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; margin: 10px; flex: 1; min-width: 250px; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px 0 rgba(0,0,0,0.2)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <h3>🔬 Research (Kone Consult)</h3>
+    <ul>
+      <li>Research Topic Selection</li>
+      <li>Data Analysis</li>
+      <li>Report/Thesis Writing</li>
+      <li>Mentorship</li>
+    </ul>
+  </div>
+  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; margin: 10px; flex: 1; min-width: 250px; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px 0 rgba(0,0,0,0.2)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <h3>💻 Coding (Kone Code)</h3>
+    <ul>
+      <li>Python Masterclass</li>
+      <li>C/C++ School</li>
+      <li>R & MATLAB School</li>
+      <li>Face-to-Face & Online Tuition</li>
+    </ul>
+  </div>
+  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; margin: 10px; flex: 1; min-width: 250px; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px 0 rgba(0,0,0,0.2)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <h3>🛠️ Engineering (Kone Lab)</h3>
+    <ul>
+      <li>3D Modelling, Design, & Simulation</li>
+      <li>Arduino Programming</li>
+    </ul>
+  </div>
+</div>
 
 ---
 
