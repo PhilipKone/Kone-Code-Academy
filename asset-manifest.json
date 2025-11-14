@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Kone-Code-Academy/static/css/main.b237b899.css",
-    "main.js": "/Kone-Code-Academy/static/js/main.d4b1f454.js",
+    "main.css": "/Kone-Code-Academy/static/css/main.0bebd45e.css",
+    "main.js": "/Kone-Code-Academy/static/js/main.40865448.js",
     "index.html": "/Kone-Code-Academy/index.html",
-    "main.b237b899.css.map": "/Kone-Code-Academy/static/css/main.b237b899.css.map",
-    "main.d4b1f454.js.map": "/Kone-Code-Academy/static/js/main.d4b1f454.js.map"
+    "main.0bebd45e.css.map": "/Kone-Code-Academy/static/css/main.0bebd45e.css.map",
+    "main.40865448.js.map": "/Kone-Code-Academy/static/js/main.40865448.js.map"
   },
   "entrypoints": [
-    "static/css/main.b237b899.css",
-    "static/js/main.d4b1f454.js"
+    "static/css/main.0bebd45e.css",
+    "static/js/main.40865448.js"
   ]
 }
