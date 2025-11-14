@@ -22,13 +22,19 @@ KCA is structured into three distinct divisions, each with a specialized focus:
 
 This division is dedicated to academic and scientific research. We assist with everything from topic selection and data analysis to thesis writing and mentorship. Our goal is to empower researchers to produce high-quality, impactful work.
 
+**[➡️ Learn More](https://philipkone.github.io/PHconsult/)**
+
 ### 💻 2. Coding (Kone Code)
 
 The coding division offers a range of programs and courses designed to build strong programming skills. Whether you're starting your journey or looking to master advanced concepts, we have something for you.
 
+**[➡️ Learn More](#services)**
+
 ### 🛠️ 3. Engineering (Kone Lab)
 
 Kone Lab is where ideas turn into reality. This division focuses on practical engineering skills, including 3D modeling, design, simulation, and embedded systems like Arduino programming.
+
+**[➡️ Learn More](#services)**
 
 ---
 

@@ -8,21 +8,27 @@ const Divisions = () => {
       title: 'Research (Kone Consult)',
       subtitle: 'Formerly PHconsult',
       description: 'This division is dedicated to academic and scientific research. We assist with everything from topic selection and data analysis to thesis writing and mentorship. Our goal is to empower researchers to produce high-quality, impactful work.',
-      color: '#667eea'
+      color: '#667eea',
+      link: 'https://philipkone.github.io/PHconsult/',
+      linkText: 'Learn More'
     },
     {
       icon: '💻',
       title: 'Coding (Kone Code)',
       subtitle: 'Programming Excellence',
       description: 'The coding division offers a range of programs and courses designed to build strong programming skills. Whether you\'re starting your journey or looking to master advanced concepts, we have something for you.',
-      color: '#f093fb'
+      color: '#f093fb',
+      link: '#services',
+      linkText: 'Learn More'
     },
     {
       icon: '🛠️',
       title: 'Engineering (Kone Lab)',
       subtitle: 'Innovation & Design',
       description: 'Kone Lab is where ideas turn into reality. This division focuses on practical engineering skills, including 3D modeling, design, simulation, and embedded systems like Arduino programming.',
-      color: '#4facfe'
+      color: '#4facfe',
+      link: '#services',
+      linkText: 'Learn More'
     }
   ];
 
@@ -45,6 +51,18 @@ const Divisions = () => {
               <h3 className="division-title">{division.title}</h3>
               <p className="division-subtitle">{division.subtitle}</p>
               <p className="division-description">{division.description}</p>
+              <a 
+                href={division.link} 
+                target={division.link.startsWith('http') ? '_blank' : '_self'}
+                rel={division.link.startsWith('http') ? 'noopener noreferrer' : ''}
+                className="division-link"
+                style={{ 
+                  backgroundColor: division.color,
+                  color: 'white'
+                }}
+              >
+                {division.linkText} →
+              </a>
             </div>
           ))}
         </div>

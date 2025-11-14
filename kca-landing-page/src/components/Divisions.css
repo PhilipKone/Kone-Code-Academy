@@ -66,6 +66,33 @@
   font-size: 1rem;
   line-height: 1.7;
   color: #4a5568;
+  margin-bottom: 1.5rem;
+}
+
+.division-link {
+  display: block;
+  padding: 0.875rem 1.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  margin-top: 1.5rem;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: none;
+  cursor: pointer;
+}
+
+.division-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  opacity: 0.95;
+}
+
+.division-link:active {
+  transform: translateY(-1px);
 }
 
 @media (max-width: 768px) {
