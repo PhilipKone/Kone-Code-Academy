@@ -34,31 +34,82 @@ Kone Lab is where ideas turn into reality. This division focuses on practical en
 
 ## ✨ Services We Offer
 
-<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; margin: 10px; flex: 1; min-width: 250px; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px 0 rgba(0,0,0,0.2)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
-    <h3>🔬 Research (Kone Consult)</h3>
-    <ul>
-      <li>Research Topic Selection</li>
-      <li>Data Analysis</li>
-      <li>Report/Thesis Writing</li>
-      <li>Mentorship</li>
-    </ul>
-  </div>
-  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; margin: 10px; flex: 1; min-width: 250px; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px 0 rgba(0,0,0,0.2)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
-    <h3>💻 Coding (Kone Code)</h3>
-    <ul>
-      <li>Python Masterclass</li>
-      <li>C/C++ School</li>
-      <li>R & MATLAB School</li>
-      <li>Face-to-Face & Online Tuition</li>
-    </ul>
-  </div>
-  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; margin: 10px; flex: 1; min-width: 250px; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px 0 rgba(0,0,0,0.2)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
-    <h3>🛠️ Engineering (Kone Lab)</h3>
-    <ul>
-      <li>3D Modelling, Design, & Simulation</li>
-      <li>Arduino Programming</li>
-    </ul>
+<div align="center">
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 25px; margin: 40px 0;">
+    
+    <!-- Research Services Card -->
+    <div style="flex: 1; min-width: 300px; max-width: 360px; border: 2.5px solid #667eea; border-radius: 16px; padding: 30px; background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%); box-shadow: 0 6px 20px rgba(102, 126, 234, 0.15); transition: all 0.3s ease;">
+      <div style="text-align: center; margin-bottom: 20px;">
+        <div style="font-size: 3em; margin-bottom: 10px;">🔬</div>
+        <h3 style="color: #667eea; margin: 0; font-size: 1.5em; font-weight: 700;">Research</h3>
+        <p style="color: #718096; margin: 5px 0 0 0; font-size: 0.9em; font-style: italic;">Kone Consult</p>
+      </div>
+      <ul style="text-align: left; line-height: 2; color: #4a5568; list-style: none; padding: 0; margin: 0;">
+        <li style="margin-bottom: 10px; padding-left: 25px; position: relative;">
+          <span style="position: absolute; left: 0; color: #667eea; font-weight: bold;">✓</span>
+          Research Topic Selection
+        </li>
+        <li style="margin-bottom: 10px; padding-left: 25px; position: relative;">
+          <span style="position: absolute; left: 0; color: #667eea; font-weight: bold;">✓</span>
+          Data Analysis
+        </li>
+        <li style="margin-bottom: 10px; padding-left: 25px; position: relative;">
+          <span style="position: absolute; left: 0; color: #667eea; font-weight: bold;">✓</span>
+          Report/Thesis Writing
+        </li>
+        <li style="margin-bottom: 0; padding-left: 25px; position: relative;">
+          <span style="position: absolute; left: 0; color: #667eea; font-weight: bold;">✓</span>
+          Mentorship
+        </li>
+      </ul>
+    </div>
+
+    <!-- Coding Services Card -->
+    <div style="flex: 1; min-width: 300px; max-width: 360px; border: 2.5px solid #f093fb; border-radius: 16px; padding: 30px; background: linear-gradient(135deg, #fef8ff 0%, #ffffff 100%); box-shadow: 0 6px 20px rgba(240, 147, 251, 0.15); transition: all 0.3s ease;">
+      <div style="text-align: center; margin-bottom: 20px;">
+        <div style="font-size: 3em; margin-bottom: 10px;">💻</div>
+        <h3 style="color: #f093fb; margin: 0; font-size: 1.5em; font-weight: 700;">Coding</h3>
+        <p style="color: #718096; margin: 5px 0 0 0; font-size: 0.9em; font-style: italic;">Kone Code</p>
+      </div>
+      <ul style="text-align: left; line-height: 2; color: #4a5568; list-style: none; padding: 0; margin: 0;">
+        <li style="margin-bottom: 10px; padding-left: 25px; position: relative;">
+          <span style="position: absolute; left: 0; color: #f093fb; font-weight: bold;">✓</span>
+          Python Masterclass
+        </li>
+        <li style="margin-bottom: 10px; padding-left: 25px; position: relative;">
+          <span style="position: absolute; left: 0; color: #f093fb; font-weight: bold;">✓</span>
+          C/C++ School
+        </li>
+        <li style="margin-bottom: 10px; padding-left: 25px; position: relative;">
+          <span style="position: absolute; left: 0; color: #f093fb; font-weight: bold;">✓</span>
+          R & MATLAB School
+        </li>
+        <li style="margin-bottom: 0; padding-left: 25px; position: relative;">
+          <span style="position: absolute; left: 0; color: #f093fb; font-weight: bold;">✓</span>
+          Face-to-Face & Online Tuition
+        </li>
+      </ul>
+    </div>
+
+    <!-- Engineering Services Card -->
+    <div style="flex: 1; min-width: 300px; max-width: 360px; border: 2.5px solid #4facfe; border-radius: 16px; padding: 30px; background: linear-gradient(135deg, #f0f9ff 0%, #ffffff 100%); box-shadow: 0 6px 20px rgba(79, 172, 254, 0.15); transition: all 0.3s ease;">
+      <div style="text-align: center; margin-bottom: 20px;">
+        <div style="font-size: 3em; margin-bottom: 10px;">🛠️</div>
+        <h3 style="color: #4facfe; margin: 0; font-size: 1.5em; font-weight: 700;">Engineering</h3>
+        <p style="color: #718096; margin: 5px 0 0 0; font-size: 0.9em; font-style: italic;">Kone Lab</p>
+      </div>
+      <ul style="text-align: left; line-height: 2; color: #4a5568; list-style: none; padding: 0; margin: 0;">
+        <li style="margin-bottom: 10px; padding-left: 25px; position: relative;">
+          <span style="position: absolute; left: 0; color: #4facfe; font-weight: bold;">✓</span>
+          3D Modelling, Design, & Simulation
+        </li>
+        <li style="margin-bottom: 0; padding-left: 25px; position: relative;">
+          <span style="position: absolute; left: 0; color: #4facfe; font-weight: bold;">✓</span>
+          Arduino Programming
+        </li>
+      </ul>
+    </div>
+
   </div>
 </div>
 

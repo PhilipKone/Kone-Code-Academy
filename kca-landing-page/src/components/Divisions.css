@@ -1,0 +1,85 @@
+.divisions {
+  padding: 6rem 2rem;
+  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.divisions-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: #718096;
+  margin-top: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divisions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  margin-top: 4rem;
+}
+
+.division-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.division-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.division-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.division-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.division-subtitle {
+  font-size: 1rem;
+  color: #718096;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.division-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #4a5568;
+}
+
+@media (max-width: 768px) {
+  .divisions {
+    padding: 4rem 1rem;
+  }
+
+  .divisions-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .division-card {
+    padding: 2rem;
+  }
+}
+
