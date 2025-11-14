@@ -40,28 +40,28 @@ Kone Lab is where ideas turn into reality. This division focuses on practical en
 
 ### 🔬 Research (Kone Consult)
 
-- ✓ Research Topic Selection
-- ✓ Data Analysis
-- ✓ Report/Thesis Writing
-- ✓ Mentorship
+✓ Research Topic Selection  
+✓ Data Analysis  
+✓ Report/Thesis Writing  
+✓ Mentorship
 
 </td>
 <td width="33%" valign="top">
 
 ### 💻 Coding (Kone Code)
 
-- ✓ Python Masterclass
-- ✓ C/C++ School
-- ✓ R & MATLAB School
-- ✓ Face-to-Face & Online Tuition
+✓ Python Masterclass  
+✓ C/C++ School  
+✓ R & MATLAB School  
+✓ Face-to-Face & Online Tuition
 
 </td>
 <td width="33%" valign="top">
 
 ### 🛠️ Engineering (Kone Lab)
 
-- ✓ 3D Modelling, Design, & Simulation
-- ✓ Arduino Programming
+✓ 3D Modelling, Design, & Simulation  
+✓ Arduino Programming
 
 </td>
 </tr>
