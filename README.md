@@ -34,8 +34,8 @@ Kone Lab is where ideas turn into reality. This division focuses on practical en
 
 ## ✨ Services We Offer
 
-<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; margin: 10px; flex: 1; min-width: 250px;">
+<div style="display: flex; justify-content: space-between; gap: 15px;">
+  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; flex: 1;">
     <h3>🔬 Research (Kone Consult)</h3>
     <ul>
       <li>Research Topic Selection</li>
@@ -44,7 +44,7 @@ Kone Lab is where ideas turn into reality. This division focuses on practical en
       <li>Mentorship</li>
     </ul>
   </div>
-  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; margin: 10px; flex: 1; min-width: 250px;">
+  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; flex: 1;">
     <h3>💻 Coding (Kone Code)</h3>
     <ul>
       <li>Python Masterclass</li>
@@ -53,7 +53,7 @@ Kone Lab is where ideas turn into reality. This division focuses on practical en
       <li>Face-to-Face & Online Tuition</li>
     </ul>
   </div>
-  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; margin: 10px; flex: 1; min-width: 250px;">
+  <div style="border: 1px solid #ddd; border-radius: 5px; padding: 20px; flex: 1;">
     <h3>🛠️ Engineering (Kone Lab)</h3>
     <ul>
       <li>3D Modelling, Design, & Simulation</li>
