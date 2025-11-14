@@ -1,5 +1,7 @@
 # 🎓 Kone-Code-Academy (KCA)
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Research...;Coding...;Engineering...)](https://git.io/typing-svg)
+
 Welcome to the official repository for **Kone-Code-Academy (KCA)**, an open-source initiative dedicated to pioneering research, coding, and engineering for all age groups and skill levels. Our mission is to provide a structured and supportive environment for learning and innovation.
 
 ---
@@ -15,6 +17,7 @@ KCA is the parent organization of PHconsult, with a long-term vision to foster a
 KCA is structured into three distinct divisions, each with a specialized focus:
 
 ### 🔬 1. Research (Kone Consult)
+
 *Formerly PHconsult*
 
 This division is dedicated to academic and scientific research. We assist with everything from topic selection and data analysis to thesis writing and mentorship. Our goal is to empower researchers to produce high-quality, impactful work.
@@ -34,18 +37,21 @@ Kone Lab is where ideas turn into reality. This division focuses on practical en
 We provide a variety of services across our three divisions.
 
 ### Research (Kone Consult)
+
 - Research Topic Selection
 - Data Analysis
 - Report/Thesis Writing
 - Mentorship
 
 ### Coding (Kone Code)
+
 - Python Masterclass
 - C/C++ School
 - R & MATLAB School
 - Face-to-Face & Online Tuition
 
 ### Engineering (Kone Lab)
+
 - 3D Modelling, Design, & Simulation
 - Arduino Programming
 
@@ -66,4 +72,5 @@ Fill out our form to register your interest, book a service, or get in touch wit
 This project is licensed under the terms of the [LICENSE](LICENSE) file.
 
 ---
+
 _Kone-Code-Academy: Research, Coding, and Engineering the Right Way._
