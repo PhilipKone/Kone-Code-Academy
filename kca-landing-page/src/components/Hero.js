@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import TypingAnimation from './TypingAnimation';
 
 const Hero = () => {
   const scrollToSection = (sectionId) => {
@@ -14,7 +15,7 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-content">
           <h1 className="hero-title">
-            Research... Coding... Engineering...
+            <TypingAnimation />
           </h1>
           <p className="hero-subtitle">
             Welcome to <strong>Kone-Code-Academy (KCA)</strong>, an open-source initiative 
