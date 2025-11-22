@@ -4,72 +4,72 @@ import './Divisions.css';
 const Divisions = () => {
   const divisions = [
     {
+      id: 'research',
+      title: 'Research',
+      subtitle: 'Kone Consult',
       icon: '🔬',
-      title: 'Research (Kone Consult)',
-      subtitle: 'Formerly PHconsult',
-      description: 'This division is dedicated to academic and scientific research. We assist with everything from topic selection and data analysis to thesis writing and mentorship. Our goal is to empower researchers to produce high-quality, impactful work.',
-      color: '#667eea',
-      link: 'https://philipkone.github.io/PHconsult/',
-      linkText: 'Learn More'
+      description: 'Academic research, data analysis, and thesis mentorship.',
+      features: ['Topic Selection', 'Data Analysis', 'Thesis Writing'],
+      status: 'Active'
     },
     {
+      id: 'coding',
+      title: 'Coding',
+      subtitle: 'Kone Code',
       icon: '💻',
-      title: 'Coding (Kone Code)',
-      subtitle: 'Programming Excellence',
-      description: 'The coding division offers a range of programs and courses designed to build strong programming skills. Whether you\'re starting your journey or looking to master advanced concepts, we have something for you.',
-      color: '#f093fb',
-      link: '#services',
-      linkText: 'Learn More'
+      description: 'Programming courses from Python to C++ and R.',
+      features: ['Python Masterclass', 'Web Development', 'Data Science'],
+      status: 'Enrollment Open'
     },
     {
+      id: 'engineering',
+      title: 'Engineering',
+      subtitle: 'Kone Lab',
       icon: '🛠️',
-      title: 'Engineering (Kone Lab)',
-      subtitle: 'Innovation & Design',
-      description: 'Kone Lab is where ideas turn into reality. This division focuses on practical engineering skills, including 3D modeling, design, simulation, and embedded systems like Arduino programming.',
-      color: '#4facfe',
-      link: '#services',
-      linkText: 'Learn More'
+      description: 'Practical engineering, 3D modeling, and embedded systems.',
+      features: ['Arduino', '3D Printing', 'Circuit Design'],
+      status: 'Lab Access'
     }
   ];
 
   return (
-    <section id="divisions" className="divisions">
-      <div className="divisions-container">
-        <div className="section-header">
-          <h2 className="section-title">Core Divisions</h2>
-          <div className="title-underline"></div>
-          <p className="section-subtitle">
-            KCA is structured into three distinct divisions, each with a specialized focus
-          </p>
-        </div>
-        <div className="divisions-grid">
-          {divisions.map((division, index) => (
-            <div key={index} className="division-card">
-              <div className="division-icon" style={{ background: `linear-gradient(135deg, ${division.color}15 0%, ${division.color}25 100%)` }}>
-                <span style={{ fontSize: '4rem' }}>{division.icon}</span>
+    <section className="divisions" id="divisions">
+      <div className="section-header">
+        <h2 className="section-title">Core <span className="text-gradient">Modules</span></h2>
+        <p className="section-subtitle">Select a specialized division to begin your journey.</p>
+      </div>
+
+      <div className="divisions-grid">
+        {divisions.map((div) => (
+          <div key={div.id} className="division-card glass-panel">
+            <div className="card-header">
+              <div className="card-icon">{div.icon}</div>
+              <div className="card-status">
+                <span className="status-dot"></span>
+                {div.status}
               </div>
-              <h3 className="division-title">{division.title}</h3>
-              <p className="division-subtitle">{division.subtitle}</p>
-              <p className="division-description">{division.description}</p>
-              <a 
-                href={division.link} 
-                target={division.link.startsWith('http') ? '_blank' : '_self'}
-                rel={division.link.startsWith('http') ? 'noopener noreferrer' : ''}
-                className="division-link"
-                style={{ 
-                  backgroundColor: division.color,
-                  color: 'white'
-                }}
-              >
-                {division.linkText} →
-              </a>
             </div>
-          ))}
-        </div>
+
+            <div className="card-content">
+              <h3 className="card-title">{div.title}</h3>
+              <p className="card-subtitle">{div.subtitle}</p>
+              <p className="card-description">{div.description}</p>
+
+              <div className="card-features">
+                {div.features.map((feature, index) => (
+                  <span key={index} className="feature-tag">{feature}</span>
+                ))}
+              </div>
+            </div>
+
+            <div className="card-footer">
+              <button className="btn-link">Access Module &rarr;</button>
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );
 };
 
 export default Divisions;
-

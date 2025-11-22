@@ -5,52 +5,34 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="footer-content">
-          <div className="footer-section">
-            <h3 className="footer-logo">
-              <span className="footer-logo-icon">🎓</span>
-              Kone-Code-Academy
-            </h3>
-            <p className="footer-tagline">
-              Research, Coding, and Engineering the Right Way.
-            </p>
+        <div className="footer-brand">
+          <div className="logo">
+            <span className="logo-symbol">&gt;_</span>
+            <span className="logo-text">KCA</span>
           </div>
-          <div className="footer-section">
-            <h4 className="footer-title">Quick Links</h4>
-            <ul className="footer-links">
-              <li><a href="#vision">Vision</a></li>
-              <li><a href="#divisions">Divisions</a></li>
-              <li><a href="#services">Services</a></li>
-              <li>
-                <a 
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSeXOBgnnnquQmQHHU1Kbyw9iYfK7gJ6Kyj5T5OctIcyy4fXSA/viewform"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Get Started
-                </a>
-              </li>
-            </ul>
+          <p className="footer-tagline">Research. Coding. Engineering.</p>
+        </div>
+
+        <div className="footer-links">
+          <div className="link-group">
+            <h4>Platform</h4>
+            <a href="#vision">Vision</a>
+            <a href="#divisions">Divisions</a>
+            <a href="#services">Services</a>
           </div>
-          <div className="footer-section">
-            <h4 className="footer-title">Divisions</h4>
-            <ul className="footer-links">
-              <li>🔬 Kone Consult</li>
-              <li>💻 Kone Code</li>
-              <li>🛠️ Kone Lab</li>
-            </ul>
+          <div className="link-group">
+            <h4>Community</h4>
+            <a href="https://github.com/PhilipKone/Kone-Code-Academy">GitHub</a>
+            <a href="https://discord.gg/example">Discord</a>
+            <a href="https://twitter.com/example">Twitter</a>
           </div>
         </div>
-        <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Kone-Code-Academy. All rights reserved.</p>
-          <p className="footer-license">
-            This project is licensed under the terms of the LICENSE file.
-          </p>
-        </div>
+      </div>
+      <div className="footer-bottom">
+        <p>&copy; {new Date().getFullYear()} Kone-Code-Academy. Open Source License.</p>
       </div>
     </footer>
   );
 };
 
 export default Footer;
-

@@ -4,63 +4,54 @@ import './Services.css';
 const Services = () => {
   const services = [
     {
-      division: 'Research (Kone Consult)',
-      icon: '🔬',
+      category: 'Research',
       items: [
-        'Research Topic Selection',
-        'Data Analysis',
-        'Report/Thesis Writing',
-        'Mentorship'
-      ],
-      color: '#667eea'
+        { title: 'Thesis Guidance', desc: 'End-to-end support for academic writing.' },
+        { title: 'Data Analytics', desc: 'Processing complex datasets with Python/R.' },
+        { title: 'Publication', desc: 'Assistance with journal submissions.' }
+      ]
     },
     {
-      division: 'Coding (Kone Code)',
-      icon: '💻',
+      category: 'Development',
       items: [
-        'Python Masterclass',
-        'C/C++ School',
-        'R & MATLAB School',
-        'Face-to-Face & Online Tuition'
-      ],
-      color: '#f093fb'
+        { title: 'Python Core', desc: 'From syntax to advanced algorithms.' },
+        { title: 'Web Stack', desc: 'Full-stack development with React & Node.' },
+        { title: 'System Design', desc: 'Architecture and scalability patterns.' }
+      ]
     },
     {
-      division: 'Engineering (Kone Lab)',
-      icon: '🛠️',
+      category: 'Hardware',
       items: [
-        '3D Modelling, Design, & Simulation',
-        'Arduino Programming'
-      ],
-      color: '#4facfe'
+        { title: 'IoT Systems', desc: 'Arduino & ESP32 prototyping.' },
+        { title: '3D Design', desc: 'CAD modeling for manufacturing.' },
+        { title: 'Robotics', desc: 'Control systems and automation.' }
+      ]
     }
   ];
 
   return (
-    <section id="services" className="services">
+    <section className="services" id="services">
       <div className="services-container">
         <div className="section-header">
-          <h2 className="section-title">Services We Offer</h2>
-          <div className="title-underline"></div>
-          <p className="section-subtitle">
-            Comprehensive educational services tailored to your needs
-          </p>
+          <h2 className="section-title">Available <span className="text-gradient">Services</span></h2>
+          <p className="section-subtitle">Comprehensive tools and resources for your growth.</p>
         </div>
-        <div className="services-grid">
-          {services.map((service, index) => (
-            <div key={index} className="service-card">
-              <div className="service-header">
-                <span className="service-icon" style={{ fontSize: '3rem' }}>{service.icon}</span>
-                <h3 className="service-title">{service.division}</h3>
-              </div>
-              <ul className="service-list">
-                {service.items.map((item, itemIndex) => (
-                  <li key={itemIndex} className="service-item">
-                    <span className="service-check">✓</span>
-                    {item}
-                  </li>
+
+        <div className="services-layout">
+          {services.map((category, idx) => (
+            <div key={idx} className="service-category">
+              <h3 className="category-title">{category.category}</h3>
+              <div className="category-grid">
+                {category.items.map((item, i) => (
+                  <div key={i} className="service-item glass-panel">
+                    <div className="service-header">
+                      <span className="service-icon">⚡</span>
+                      <h4 className="service-title">{item.title}</h4>
+                    </div>
+                    <p className="service-desc">{item.desc}</p>
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
           ))}
         </div>
@@ -70,4 +61,3 @@ const Services = () => {
 };
 
 export default Services;
-

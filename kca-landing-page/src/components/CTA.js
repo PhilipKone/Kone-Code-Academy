@@ -3,23 +3,28 @@ import './CTA.css';
 
 const CTA = () => {
   return (
-    <section className="cta">
-      <div className="cta-container">
+    <section className="cta-section" id="contact">
+      <div className="cta-container glass-panel">
         <div className="cta-content">
-          <h2 className="cta-title">Ready to Begin Your Journey?</h2>
+          <h2 className="cta-title">Ready to <span className="text-gradient">Initialize?</span></h2>
           <p className="cta-description">
-            Whether you're interested in our services or want to contribute to our open-source 
-            projects, we'd love to hear from you. Fill out our form to register your interest, 
-            book a service, or get in touch with our team.
+            Join the community and start building your future today.
           </p>
-          <a 
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeXOBgnnnquQmQHHU1Kbyw9iYfK7gJ6Kyj5T5OctIcyy4fXSA/viewform"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cta-button"
-          >
-            Get Started Now
-          </a>
+
+          <div className="cta-terminal">
+            <div className="terminal-line">
+              <span className="prompt">$</span>
+              <span className="cmd">kca join --user=you</span>
+            </div>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeXOBgnnnquQmQHHU1Kbyw9iYfK7gJ6Kyj5T5OctIcyy4fXSA/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary cta-btn"
+            >
+              Execute Join Command
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -27,4 +32,3 @@ const CTA = () => {
 };
 
 export default CTA;
-
